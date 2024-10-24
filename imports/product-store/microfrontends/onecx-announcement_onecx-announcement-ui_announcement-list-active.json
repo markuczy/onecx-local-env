@@ -1,0 +1,15 @@
+{
+    "appVersion": "xxx",
+    "appName": "onecx-announcement-ui",
+    "description": "onecx-announcement-ui",
+    "remoteBaseUrl": "/mfe/announcement/",
+    "remoteEntry": "/mfe/announcement/remoteEntry.js",
+    "note": "Announcement List Active component",
+    "exposedModule": "./OneCXAnnouncementListActiveComponent",
+    "technology": "WEBCOMPONENTMODULE",
+    "remoteName": "onecx-announcement",
+    "tagName": "ocx-announcement-list-active-component",
+    "type": "COMPONENT",
+    "deprecated": false,
+    "undeployed": false
+}

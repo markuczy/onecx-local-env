@@ -123,6 +123,20 @@
 					"WORKSPACE_SLOT": [ "CREATE", "DELETE", "EDIT", "VIEW" ]
 				}
 			}
+		},
+		"onecx-announcement": {
+			"onecx-announcement-bff": {
+				"onecx-admin": {
+					"announcement": [ "read", "write", "delete" ],
+					"product": [ "read" ],
+					"workspace": [ "read" ]
+				}
+			},
+			"onecx-announcement-ui": {
+				"onecx-admin": {
+					"ANNOUNCEMENT": [ "CREATE", "DELETE", "EDIT", "EXPORT", "IMPORT", "SEARCH", "VIEW" ]
+				}
+			}
 		}
     }
 }
