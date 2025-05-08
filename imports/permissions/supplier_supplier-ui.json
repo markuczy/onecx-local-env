@@ -1,0 +1,65 @@
+{
+  "name": "supplier",
+  "permissions": [
+    {
+      "resource": "Bulk_Installation_Order",
+      "action": "Read"
+    },
+    {
+      "resource": "Bulk_Installation_Order",
+      "action": "Create"
+    },
+    {
+      "resource": "Bulk_Installation_Order",
+      "action": "Approve"
+    },
+    {
+      "resource": "Bulk_Installation_Order",
+      "action": "Update"
+    },
+    {
+      "resource": "Bulk_Installation_Order",
+      "action": "Delete"
+    },
+    {
+      "resource": "Building_Order",
+      "action": "Read"
+    },
+    {
+      "resource": "Building_Order",
+      "action": "Create"
+    },
+    {
+      "resource": "Building_Order",
+      "action": "Approve"
+    },
+    {
+      "resource": "Building_Order",
+      "action": "Update"
+    },
+    {
+      "resource": "Building_Order",
+      "action": "Delete"
+    },
+    {
+      "resource": "Building_Order_SubTask",
+      "action": "Read"
+    },
+    {
+      "resource": "Building_Order_SubTask",
+      "action": "Create"
+    },
+    {
+      "resource": "Building_Order_SubTask",
+      "action": "Approve"
+    },
+    {
+      "resource": "Building_Order_SubTask",
+      "action": "Update"
+    },
+    {
+      "resource": "Building_Order_SubTask",
+      "action": "Delete"
+    }
+  ]
+}

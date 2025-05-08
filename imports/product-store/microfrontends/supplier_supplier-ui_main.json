@@ -1,0 +1,15 @@
+{
+  "appVersion": "xxx",
+  "appName": "supplier",
+  "description": "Supplier UI",
+  "remoteBaseUrl": "/mfe/supplier/auftragnehmerportal-ui/bulksupplierui/",
+  "remoteEntry": "/mfe/supplier/auftragnehmerportal-ui/bulksupplierui/remoteEntry.js",
+  "note": "Supplier auto import via MF operator",
+  "exposedModule": "./RemoteModule",
+  "technology": "WEBCOMPONENTMODULE",
+  "remoteName": "supplier",
+  "tagName": "bfo-supplier-ui",
+  "type": "MODULE",
+  "deprecated": false,
+  "undeployed": false
+}

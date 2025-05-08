@@ -1,0 +1,7 @@
+{
+  "version": "xxx",
+  "description": "Supplier",
+  "basePath": "/supplier",
+  "displayName": "Supplier",
+  "iconName": "id-card"
+}

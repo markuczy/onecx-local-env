@@ -24,6 +24,16 @@
       ],
       "products": [
         {
+          "productName": "supplier",
+          "baseUrl": "/supplier",
+          "microfrontends": [
+            {
+              "appId": "supplier-ui",
+              "basePath": "/"
+            }
+          ]
+        },
+        {
           "productName": "onecx-iam",
           "baseUrl": "/iam",
           "microfrontends": [
@@ -214,6 +224,22 @@
               "i18n": {
                 "de": "Application Store",
                 "en": "Application Store"
+              },
+              "roles": ["onecx-admin"],
+              "children": []
+            },
+            {
+              "key": "SUPPLIER",
+              "name": "Supplier",
+              "url": "/supplier",
+              "applicationId": "",
+              "disabled": false,
+              "position": 1,
+              "badge": "cog",
+              "external": false,
+              "i18n": {
+                "de": "Supplier",
+                "en": "Supplier"
               },
               "roles": ["onecx-admin"],
               "children": []

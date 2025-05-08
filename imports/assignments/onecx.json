@@ -1,6 +1,27 @@
 {
   "id": "import-assignemnts-onecx",
   "assignments": {
+    "supplier": {
+      "supplier-ui": {
+        "onecx-admin": {
+          "Bulk_Installation_Order": [
+            "Read",
+            "Create",
+            "Approve",
+            "Update",
+            "Delete"
+          ],
+          "Building_Order": ["Read", "Create", "Approve", "Update", "Delete"],
+          "Building_Order_SubTask": [
+            "Read",
+            "Create",
+            "Approve",
+            "Update",
+            "Delete"
+          ]
+        }
+      }
+    },
     "onecx-shell": {
       "onecx-shell-bff": {
         "onecx-admin": {
