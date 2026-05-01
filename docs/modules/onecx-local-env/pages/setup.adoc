@@ -9,7 +9,8 @@ endif::[]
 :git_install_url:            link:https://git-scm.com/book/en/v2/Getting-Started-Installing-Git[Instructions to install git]
 :nodejs_install_url:         link:https://nodejs.org/en/download/[Instructions to install node.js]
 :jq_install_url:             link:https://stedolan.github.io/jq/download/[Instructions to install jq]
-:wsl_install_url:            link:https://learn.microsoft.com/en-us/windows/wsl/install[Instructions to install WSL]
+:wsl_install_url:            link:https://learn.microsoft.com/en-us/windows/wsl/install[Install WSL (learn.microsoft.com)]
+:wsl_install_distro:         xref:./wsl2.adoc[Set up the Linux Distribution]
 
 
 = Set up a OneCX Local Environment
@@ -34,8 +35,10 @@ wsl -l -v
 ----
 This command lists all installed WSL distributions along with their version numbers. To run *onecx-local-env*, at least one distribution must be installed and its version *must be 2*.
 +
-In case of errors, no output, or no WSL2 distributions listed, WSL2 is either not installed or not properly configured. Official guidance on installing and configuring WSL2 can be found here: {wsl_install_url}
+In case of errors, no output, or no WSL2 distributions listed, WSL2 is either not installed or not properly configured. Official guidance on installing and configuring WSL2 can be found here:
 
+. {wsl_install_url}
+. {wsl_install_distro}
 
 [NOTE]
 .Checkpoint

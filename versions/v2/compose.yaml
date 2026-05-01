@@ -94,6 +94,7 @@ services:
     environment:
       POSTGRES_PASSWORD: admin
     volumes:
+      # - postgres:/var/lib/postgresql/docker   # Use this on Postgres 18+
       - postgres:/var/lib/postgresql/data
       - ../../init-data/postgres:/docker-entrypoint-initdb.d/
     healthcheck:
