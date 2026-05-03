@@ -96,6 +96,17 @@ image::issues/status-code-401-start-onecx.sh.png[]
 * Start again
 
 
+=== PostgresDB Container fails on Start up
+The problem occurs when the version of the PostgreSQL database was changed without renew the affected database volumes.
+
+.Message: Failed postgresdb service on Start up
+image::issues/start-postgresdb-failed-on-changed-db-version.png[]
+
+.Solution icon:lightbulb[role=yellow]
+* Stop the services with cleanup (remove volumes)
+* Start again
+
+
 === Failed Services on Start up
 The problem occurs when some services cannot be started successfully even after several attempts and timeouts.
 
