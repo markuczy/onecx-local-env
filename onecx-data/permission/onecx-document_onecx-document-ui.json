@@ -1,0 +1,30 @@
+{
+  "name": "onecx-document-ui",
+  "permissions": [
+    {
+      "resource": "DOCUMENT",
+      "action": "CREATE",
+      "description": "Permission to create documents"
+    },
+    {
+      "resource": "DOCUMENT",
+      "action": "EDIT",
+      "description": "Permission to edit documents"
+    },
+    {
+      "resource": "DOCUMENT",
+      "action": "DELETE",
+      "description": "Permission to delete documents"
+    },
+    {
+      "resource": "DOCUMENT",
+      "action": "VIEW",
+      "description": "Permission to view documents"
+    },
+    {
+      "resource": "DOCUMENT",
+      "action": "SEARCH",
+      "description": "Permission to search documents"
+    }
+  ]
+}
