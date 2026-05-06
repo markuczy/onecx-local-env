@@ -8,6 +8,7 @@ endif::[]
 :docker_compose_install_url: link:https://docs.docker.com/compose/install/[Instructions to install Docker Compose]
 :git_install_url:            link:https://git-scm.com/book/en/v2/Getting-Started-Installing-Git[Instructions to install git]
 :nodejs_install_url:         link:https://nodejs.org/en/download/[Instructions to install node.js]
+:curl_install_url:           link:https://curl.se/download.html[Instructions to install curl]
 :jq_install_url:             link:https://stedolan.github.io/jq/download/[Instructions to install jq]
 :wsl_install_url:            link:https://learn.microsoft.com/en-us/windows/wsl/install[Install WSL (learn.microsoft.com)]
 :wsl_install_distro:         xref:./wsl2.adoc[Set up the Linux Distribution]
@@ -57,7 +58,7 @@ This can lead to file permission issues and unexpected behavior when running scr
 
 
 === Programs
-*onecx-local-env* requires the direct installation of some programs on the operating system.
+*onecx-local-env* requires the direct installation of some programs on the operating system. This list reflects only the essential necessary programs, additional tools may be required for specific use cases.
 
 Docker & Docker Compose::
 To ensure that all used features work correctly, it is recommended to use *Docker Compose* version *v2.20.0* or higher. When using older versions, some functions may not work as expected.
@@ -69,12 +70,14 @@ Docker:::         *28.1.1*  => {docker_install_url}
 Docker Compose::: *2.35.1*  => {docker_compose_install_url}
 
 [horizontal]
+curl::
+Import OneCX data => {curl_install_url}
 git::
 Various actions such as cloning the *onecx-local-env* repository and following the installation instructions => {git_install_url}
-node.js::
-Working on local microfrontends and import OneCX data => {nodejs_install_url}
 jq::
 Import OneCX data => {jq_install_url}
+node.js::
+Working on local microfrontends and import OneCX data, version >= 20 => {nodejs_install_url}
 
 
 == OneCX Installation
