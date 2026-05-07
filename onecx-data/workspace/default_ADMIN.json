@@ -358,6 +358,16 @@
           ]
         },
         {
+          "name": "onecx-shell-header.center",
+          "components": [
+            {
+              "productName": "onecx-workspace",
+              "appId": "onecx-workspace-ui",
+              "name": "./OneCXHorizontalMainMenuComponent"
+            }
+          ]
+        },
+        {
           "name": "onecx-shell-header.end",
           "components": [
             {
